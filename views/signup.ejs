@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+
+    <style>
+        body{
+      font-family: "Share Tech Mono", monospace;
+    }
+    </style>
+
+</head>
+<body>
+    <h1>SignUp</h1>
+    <form action="/user" method="POST">
+        <label for="">Full Name</label>
+        <input type="text" required name="name">
+
+        <label for="">E mail</label>
+        <input type="text" required name="email">
+
+        <label for="">Password</label>
+        <input type="text" required name="password">
+
+        <button type="submit">Signup</button>
+
+    </form>
+</body>
+</html>
